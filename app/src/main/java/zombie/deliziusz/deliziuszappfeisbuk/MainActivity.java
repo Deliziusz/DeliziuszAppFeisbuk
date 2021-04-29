@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onSuccess(LoginResult loginResult) {
                 info.setText("ID de Usuario: " + loginResult.getAccessToken().getUserId() +
-                        "\n" + "Auth Token: " + loginResult.getAccessToken().getToken());
+                        "\n" + "Tú token amix: " + loginResult.getAccessToken().getToken());
             }
 
             @Override
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         callbackManager.onActivityResult(requestCode, resultCode, data);
         ShareLinkContent content = new ShareLinkContent.Builder()
-                .setContentUrl(Uri.parse("https://developers.facebook.com"))
+                .setContentUrl(Uri.parse("https://www.youtube.com/watch?v=_dgYiajak-k&ab_channel=GirlUltra"))
                 .setShareHashtag(new ShareHashtag.Builder()
                         .setHashtag("#Deliziusz").build())
                 .build();
