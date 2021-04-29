@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DeliziuszAppFeisbuk</string>
+    <string name="facebook_app_id">508260856868610</string>
+    <string name="fb_login_protocol_scheme">fb508260856868610</string>
+
+    <string name="share_link">Share link</string>
+</resources>
